@@ -20,6 +20,7 @@
     background-color: #FF900E;
     border: none;
     border-radius: .5rem;
+    cursor: pointer;
 }
 .dark-3{
     color: #727272;
@@ -188,7 +189,9 @@ footer p{
     grid-template-columns: repeat(5, 1fr);
     filter: grayscale(100%);
 }
-
+.number{
+    font-size: 2rem;
+}
 
 /*  Responsive Media query */
 
