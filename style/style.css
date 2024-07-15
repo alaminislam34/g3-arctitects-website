@@ -140,3 +140,107 @@ header, .banner{
     margin-top: -100px;
     margin-left: -100px;
 }
+
+/*  Responsive Media query */
+
+@media screen and (max-width: 576px ) {
+    .display-flex{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .navbar, .nav-item{
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+    }
+    .banner-content{
+        width: 100%;
+        padding: 0 2rem;
+        margin: 0;
+    }
+    .banner2{
+        margin: 2rem auto;
+    }
+    .banner2 .images{
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .images img {
+        width: 100%;
+    }
+    .banner3{
+        flex-direction: column-reverse;
+    }
+    .banner3, .banner3-content{
+        width: 100%;
+        padding: 1rem;
+    }
+    .banner3-image img{
+        width: 100%;
+    }
+    .banner3-image button{
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    .display-flex{
+        /* flex-direction: column; */
+        margin: auto;
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        padding: 2rem 1rem 0 1rem;
+        gap: 1rem;
+    }
+    .navbar h1{
+        font-size: 2rem;
+    }
+    .nav-item{
+        gap: 1rem;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size: 2.5rem;
+    }
+    .banner2{
+        width: 100%;
+        gap: 1rem;
+        flex-direction: column
+    }
+    .banner2 .images{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .images img{
+        width: 100%;
+    }
+    .banner2-content{
+        padding: 1rem 2rem;
+    }
+    .banner3{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+    }
+    .banner3-image img{
+        width: 80%;
+        margin: 1rem 2rem;
+    }
+    .banner3-image button{
+        margin: 1rem auto;
+    }
+    .banner3-content{
+        width: 100%;
+        padding: 2rem;
+
+    }
+}
