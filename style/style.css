@@ -24,7 +24,7 @@
 }
 .dark-3{
     color: #727272;
-    padding-bottom: 1rem;
+    /* padding-bottom: 2rem; */
 }
 .primary-color{
     color: #FF900E;
@@ -159,11 +159,12 @@ header, .banner{
 }
 .card{
     border: 2px solid #FF900E;
-    width: 6rem;
-    height: 9rem;
+    max-width: 200px;
+    max-height: 180px;
     align-items: center;
     text-align: center;
-    padding: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 100%;
     border-radius: 10px;
 }
